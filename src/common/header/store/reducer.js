@@ -1,4 +1,4 @@
-import { SEARCH_FOCUS, SEARCH_BLURS } from '../../../action/headerAction'
+import { SEARCH_FOCUS, SEARCH_BLURS } from './headerAction'
 const defaultState = {
   inputFocus: false
 }

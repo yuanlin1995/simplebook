@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.scss'
 import { connect } from 'react-redux'
-import { searchFocus, searchBlurs } from '../../action/headerAction'
+import { searchFocus, searchBlurs } from './store/headerAction'
 
 const Header = props => {
   return (
