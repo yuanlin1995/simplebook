@@ -14,7 +14,7 @@ const Header = props => {
             <i className="fa fa-home" /> 首页
           </a>
           <a className="download" href="/">
-            <i className="fa fa-download" /> 下载App
+            <i className="fa fa-download" /> 下载App 
           </a>
           <div className="searchbar">
             <input
@@ -52,7 +52,7 @@ const Header = props => {
 }
 const mapStateToProps = state => {
   return {
-    inputFocus: state.header.inputFocus
+    inputFocus: state.header.get('inputFocus')
   }
 }
 const mapDispatchToProps = dispatch => {
